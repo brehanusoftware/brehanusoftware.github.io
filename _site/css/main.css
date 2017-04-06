@@ -17,6 +17,21 @@ div.wrapper {
      margin: 0 auto;
 }
 
+p.tag {
+     position: relative;
+     top: 175px;
+     left: 30px;
+     text-transform: uppercase;
+     font-size: 12.5px;
+     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+     padding: 10px 5px;
+     max-width: 100px;
+     text-align: center;
+     color: #212121;
+     border-radius: 4px;
+     background-color: #FFFFFF;
+}
+
 a {
      text-transform: none;
      text-decoration: none;
@@ -72,4 +87,60 @@ nav li a.github {
 
 a.logo, nav {
      display: inline-block;
+}
+
+div.banner {
+     padding-top: 30px;
+     float: none;
+     clear: both;
+}
+/*
+div.bubble {
+     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+     border-radius: 4px;
+     display: inline-block;
+     height: 400px;
+}
+
+div.bubble#featured {
+     width: 55%;
+     float: left;
+}
+
+div.bubble#bio {
+     width: 43%;
+     float: right;
+}*/
+
+/* A Tag Version */
+
+a.bubble {
+     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+     border-radius: 4px;
+     display: inline-block;
+     height: 500px;
+}
+
+a.bubble#featured {
+     width: 55%;
+     min-width: 500px;
+     float: left;
+     background-image: url("https://images.unsplash.com/photo-1464568079991-b2253e3ef5d1?dpr=2.200000047683716&auto=format&fit=crop&w=1199&h=674&q=80&cs=tinysrgb&crop=&bg=");
+     background-repeat: no-repeat;
+     background-position:  center;
+}
+
+a.bubble#bio {
+     width: 43%;
+     float: right;
+}
+
+a.bubble p.title {
+     text-transform: uppercase;
+     font-size: 30px;
+     font-weight: bold;
+     color: #FFFFFF;
+     margin: 0px;
+     padding: 225px 0px 0px 0px;
+     text-align: center;
 }
